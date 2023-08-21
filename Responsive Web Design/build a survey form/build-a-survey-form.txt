@@ -1,0 +1,122 @@
+** start of undefined **
+
+<html>
+  <head>
+   <link rel="stylesheet" href="styles.css"> 
+  </head>
+
+  <body>
+   <h1 id="title"> Hello There</h1>
+   <p id="description"> Thank you for choosing Dax's Diner</p>
+  
+    <form id="survey-form">
+      <label id="name-label">
+        name 
+        <input id="name" placeholder="name" type="text" required/>
+      </label>
+      <label id="email-label">
+        email 
+        <input id="email" placeholder="email" type="email" required/>
+      </label>
+      <label id="number-label">
+        number 
+        <input id="number" type="number" placeholder="1" min="1" max="5"/>
+      </label>
+      <label>
+        <select id="dropdown">
+          <option>option 1</option>
+          <option>option 2</option>
+        </select>
+      </label>
+      <div class="center">
+      <label>
+        <input class="inline" id="small" value="small" type="radio" name="size" />
+        small
+      </label>
+      <label>
+        <input class="inline" id="large" value="large" type="radio" name="size" />
+        large
+      </label>
+      <label>
+        <input class="inline" id="red" value="red" type="checkbox" name="color" />
+        red
+      </label>
+      <label>
+        <input class="inline" id="green" value="green" type="checkbox" name="color" />
+        green
+      </label>
+      </div>
+      <label>
+        <textarea></textarea>
+      </label>
+      <label>
+        <input type="submit" id="submit" value="submit"/>
+      </label>
+    </form>
+  
+  </body>
+
+  
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  background-color: #3b3b4f;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+h1, p {
+  text-align: center;
+  margin: 1em auto;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+input, textarea, select {
+  width: 100%;
+}
+
+input, textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+.center {
+  display: flex;
+  justify-content: center
+}
+
+
+
+** end of undefined **
+
